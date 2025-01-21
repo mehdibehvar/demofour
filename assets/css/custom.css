@@ -1,0 +1,82 @@
+/* Import theme fonts */
+@font-face {
+  font-family: "iransansxv";
+  src: url("../fonts/iransans/iransansxv.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Doran";
+  src: url("../fonts/Doran-Variable/Webfonts/Doran - VF.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  /*
+   * Css vars font
+   */ /*
+   * Css vars font-family
+   */
+  --font-family-primary: "iransansxv", sans-serif;
+  --font-family-secondary: "Doran", serif;
+}
+
+/* Buttons */
+.animate-btn > span {
+  transform: translateX(-12px);
+}
+.animate-btn > .icon {
+  transform: translateX(4px);
+}
+.animate-btn:hover > span {
+  transform: translateX(4px);
+}
+.animate-btn:hover > .icon {
+  transform: translateX(-8px);
+}
+.post-author {
+  margin-top: 0;
+  img {
+    position: relative;
+  }
+}
+
+.post-title {
+  min-height: 60px;
+}
+.w-165px {
+  width: 165px !important;
+}
+
+.post-content p:first-child::first-letter {
+  font-size: 2em;
+  float: right;
+  line-height: 0.9em;
+  margin-right: 0px;
+}
+.featured-image .ratio::before {
+  padding-top: 0;
+}
+
+.comment-info {
+  margin-right: 80px;
+}
+
+#blog-comment .comment {
+  margin-right: 85px;
+}
+#blog-comment ul,
+#blog-comment li {
+  margin-right: -40px;
+  padding-right: 0
+}
+.comment-info .c_reply{
+  border-left: none;
+  padding-left: 0px;
+  padding-right: 10px;
+  margin-right: 5px;
+  border-right: solid 1px #ddd;
+}
+.post-date{
+  margin-right: 0;
+}
