@@ -64,6 +64,7 @@
 
 #blog-comment .comment {
   margin-right: 85px;
+  margin-left: 20px;
 }
 #blog-comment ul,
 #blog-comment li {
@@ -80,34 +81,6 @@
 .post-date{
   margin-right: 0;
 }
-/* .nav-y .uc-parent::after {
-  content: "";
-}
-.nav-y .uc-parent.uc-open::after {
-  content: ""
-}
-.nav-y .uc-parent a {
- width: fit-content;
-}
-.nav-y .uc-parent a:first-of-type::after {
-  content: "\e940";
-  font-family: "Unicons";
-  position: absolute;
-  top: 5px;
-  left: -20px;
-  font-size: 1.125rem;
-  font-weight: bold;
-  width: 1.5rem;
-  height: 1.5rem;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.6
-}
-
-.nav-y .uc-parent.uc-open a:first-of-type::after {
-  content: "\e93f"
-} */
 
 .nav-y .uc-parent::after {
   top: 5px;
